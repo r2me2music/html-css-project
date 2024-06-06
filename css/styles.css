@@ -1,0 +1,169 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header > img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3rem;
+}
+
+nav {
+    margin-top: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-inline-start: 0;
+}
+
+
+
+nav li a:link {
+    background-color: aliceblue;
+    color: black;
+    padding: 1rem 3rem;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+nav li a:visited {
+    background-color: aliceblue;
+    color: black;
+    padding: 1rem 3rem;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+nav li a:hover {
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+}
+
+nav li a:active {
+    top: .1rem;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+  
+
+#spotlight {
+    min-height: 20rem;
+    background-image: url(/images/jewelry-red-crop.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    mask-image: linear-gradient(to bottom, aliceblue 40%, transparent);
+    mask-position: center;
+}
+
+#spotlight div {
+    padding: 1rem 0rem;
+}
+
+.calltoaction {
+    margin-top: 2rem;
+    border: .1rem solid black;
+}
+
+.calltoaction:link, :visited {
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem 3rem;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.calltoaction:visited {
+    color: aliceblue;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.calltoaction:hover {
+    transform: background-color(black);
+    transition: 0.25s;
+    background-color: transparent;
+    color: black;
+    position: relative;
+}
+
+.calltoaction:active {
+    top: .1rem;
+}
+
+#columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4rem;
+    column-gap: 2rem;
+}
+
+#columns article {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.images {
+    max-width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    margin-top: 5rem;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    width: 5rem;
+}
+
+#copyright {
+    display: flex;
+    justify-content: end;
+}
