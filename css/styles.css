@@ -143,6 +143,10 @@ h2 {
     flex-direction: column;
     width: 30%;
 }
+    
+#columns h2, a {    
+    align-self: center;
+}
 
 .images {
     max-width: 100%;
